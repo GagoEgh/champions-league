@@ -1,0 +1,152 @@
+h1{
+    text-align: center;
+    color: #07079c;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+
+.block{
+
+    width: 900px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+
+    .box{
+        // width: 85px;
+        height: 70px;
+    }
+
+    p{
+        font-size: 12px;
+        color: #07079c;
+        text-align: center;
+        padding-bottom: 5px;
+    }
+
+    .btn{
+        padding: 5px;
+        width: 150px;
+        border: 1px solid #07079c;;
+        background: white;
+        color: #07079c;
+        letter-spacing: 1px;
+        cursor: pointer;
+        transition: all 0.3s;
+        &:hover{
+            background-color: #07079c;
+            color: white;
+
+        }
+    }
+}
+
+.groups{
+    position: relative;
+    width: 100wv;
+    display: flex;
+    justify-content: space-between;
+    color: #07079c;
+    .group{
+        position: relative;
+        display: flex;
+        align-items: center;
+        .section{
+            width: 210px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            justify-content: space-between;
+            padding: 10px;
+            border: 1px solid;
+            img{
+                width: 50px;
+            }
+        }
+
+        .final8{
+            .final-group{
+                display: flex;
+                flex-direction: column;
+                padding: 15px 1px 15px 15px;
+                width: 150px;
+                .time{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    border: 1px solid;
+                    img{
+                        width: 50px;
+                    }
+                }
+            }
+          
+        }
+
+        .final2{
+            display: flex;
+            flex-direction: column;
+
+            .final2-first{
+                padding-bottom: 160px;
+            }
+        }
+
+        
+        .championA{
+            position: absolute;
+            top: 46%;
+            left: 100%;
+
+        }
+
+        .championB{
+            position: absolute;
+            top: 47%;
+            left: -37%;
+        }
+    }
+
+    .groupB{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .logo{
+        width: 50px;
+    }
+
+    .mg{
+        margin-left: 80px;
+    }
+
+    .champion{
+        position: absolute;
+        top: 0;
+        left: 43%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img{
+             width: 80px;
+        }
+        
+    }
+
+    .final-l{
+        position: absolute;
+        top: 43%;
+        left: 84%;
+    }
+
+    .final-r{
+        position: absolute;
+        top: 46%;
+        left: -16%;
+    }
+
+
+  
+}
